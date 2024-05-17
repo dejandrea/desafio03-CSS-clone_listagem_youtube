@@ -1,0 +1,44 @@
+/* menu */
+
+.menu{
+    width: 100vw;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px 0 24px;
+    background-color: #FFFFFF;
+}
+
+.left {
+    width: 146px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.center{
+    width: 404px;
+    height: 40px;
+    display: flex;
+    border: 1px solid #CCCCCC;
+}
+.center input{
+    width: 348px;
+}
+.center .search-icon{
+    width: 57px;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CCCCCC
+}
+
+.right{
+    width: 130px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
